@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="02.MainFrame">
+      <UniqueIdentifier>{fccf13ce-f4b5-499f-9cb0-05cd94193142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01,View">
+      <UniqueIdentifier>{7d783bb4-a0ab-492a-9909-d7c4c7518f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Document">
+      <UniqueIdentifier>{72dfd531-b0ac-40b0-8f82-efe1c79a4a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{e73f78a2-aef9-4495-96ba-d45742ab3642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Graphic_Device">
+      <UniqueIdentifier>{b99dc071-a1ec-4a44-8d8a-f0d83caaaf84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{dd571547-8f78-46a1-94ab-0f8079468313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Texture">
+      <UniqueIdentifier>{fe9d007b-0181-4023-ba96-61610e3cbb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Texture\SingleTexture">
+      <UniqueIdentifier>{fdb086f4-598d-4873-9798-c88556010462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Texture\Manager">
+      <UniqueIdentifier>{64d9056a-a0c0-4500-9895-55614834cbd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Texture\MultiTexture">
+      <UniqueIdentifier>{2f08d555-5eff-4f89-9343-7703fccd40a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Terrain">
+      <UniqueIdentifier>{df4fe386-999e-4566-ba32-33671da45ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01,View\MiniView">
+      <UniqueIdentifier>{d8be2fce-72f0-4b52-984d-ef681e59d59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01,View\UnitTool">
+      <UniqueIdentifier>{7d474e0a-1160-4574-a403-d0d080feb4b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01,View\Animation">
+      <UniqueIdentifier>{b09bf084-cea1-49b9-9e02-995d0e1b3834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01,View\Animation\00. Load">
+      <UniqueIdentifier>{16178309-cc9e-4d25-be75-7a5d5a4f3480}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02.MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolView.h">
+      <Filter>01,View</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCToolDoc.h">
+      <Filter>03.Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCTool.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic_Device.h">
+      <Filter>04.Graphic_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>05.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>05.Texture\SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>05.Texture\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>05.Texture\MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>06.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniView.h">
+      <Filter>01,View\MiniView</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>01,View</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTool.h">
+      <Filter>01,View\UnitTool</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTool.h">
+      <Filter>01,View\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoad.h">
+      <Filter>01,View\Animation\00. Load</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02.MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolView.cpp">
+      <Filter>01,View</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCToolDoc.cpp">
+      <Filter>03.Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCTool.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic_Device.cpp">
+      <Filter>04.Graphic_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>05.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>05.Texture\SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>05.Texture\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>05.Texture\MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>06.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniView.cpp">
+      <Filter>01,View\MiniView</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>01,View</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTool.cpp">
+      <Filter>01,View\UnitTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTool.cpp">
+      <Filter>01,View\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoad.cpp">
+      <Filter>01,View\Animation\00. Load</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFCTool.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\MFCToolDoc.ico">
+      <Filter>99.Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCTool.rc">
+      <Filter>99.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCTool.rc2">
+      <Filter>99.Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
