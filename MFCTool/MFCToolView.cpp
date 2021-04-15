@@ -298,6 +298,7 @@ void CMFCToolView::Picking_Biu(D3DXVECTOR3 _vMouse, D3DXVECTOR3 _vSize)
 	CGameObject* pObj = CAbstractFactory<CBiu>::Create(D3DXVECTOR3((ItemTile_X * TileCX) + (TileCX >> 1), (ItemTile_Y * TileCY) + (TileCY >> 1), 0.f));
 	pObj->Set_ReSize(_vSize);
 	CObjectManager::Get_Instance()->Add_Object(pObj, OBJID::BIU);
+
 }
 
 
