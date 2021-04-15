@@ -46,6 +46,9 @@
     <Filter Include="01,View\Animation\00. Load">
       <UniqueIdentifier>{16178309-cc9e-4d25-be75-7a5d5a4f3480}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01,View\GameObject">
+      <UniqueIdentifier>{9a86e2fa-900c-434a-bd87-d14c791910cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainFrm.h">
@@ -113,6 +116,9 @@
     </ClInclude>
     <ClInclude Include="ImageLoad.h">
       <Filter>01,View\Animation\00. Load</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>98.Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

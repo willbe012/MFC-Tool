@@ -35,3 +35,7 @@ private:													\
 															
 #define IMPLEMENT_SINGLETON(className)						\
 className* className::m_pInstance = nullptr; 	
+
+#define OBJ_DEAD 1
+#define OBJ_NOEVENT 0
+#define SAFE_DELETE(p) if(p) {delete p, p = nullptr;}
