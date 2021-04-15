@@ -79,10 +79,6 @@ IDR_MFCToolTYPE         ICON                    "res\\MFCToolDoc.ico"
 // Bitmap
 //
 
-IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
-
-IDB_BITMAP1             BITMAP                  "C:\\Users\\¾çÀ±¿µ\\Desktop\\MapTool ÆÀ°úÁ¦\\Texture\\JusinLogo1.bmp"
-
 
 /////////////////////////////////////////////////////////////////////////////
 //
