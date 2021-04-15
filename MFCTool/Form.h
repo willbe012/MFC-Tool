@@ -5,6 +5,7 @@
 // CForm Æû ºäÀÔ´Ï´Ù.
 #include "UnitTool.h"
 #include "AnimationTool.h"
+#include "MyUnitTool.h"
 class CForm : public CFormView
 {
 	DECLARE_DYNCREATE(CForm)
@@ -34,6 +35,16 @@ public:
 
 	afx_msg void OnBnClickedAnimationButton();
 	CAnimationTool m_tAnimationTool;
+
+
+
+
+
+
+
+	//Á¤È£
+	afx_msg void OnBnClickedButtonmyunittool();
+	CMyUnitTool m_tMyUnitTool;
 };
 
 

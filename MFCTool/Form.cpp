@@ -29,6 +29,7 @@ BEGIN_MESSAGE_MAP(CForm, CFormView)
 	ON_BN_CLICKED(IDC_BUTTON1, &CForm::OnBnClickedButton1)
 
 	ON_BN_CLICKED(IDC_BUTTON2, &CForm::OnBnClickedAnimationButton)
+	ON_BN_CLICKED(IDC_BUTTONMYUNIT, &CForm::OnBnClickedButtonmyunittool)
 END_MESSAGE_MAP()
 
 
@@ -67,4 +68,12 @@ void CForm::OnBnClickedAnimationButton()
 	if (nullptr == m_tAnimationTool.GetSafeHwnd())
 		m_tAnimationTool.Create(IDD_ANIMATIONTOOL);
 	m_tAnimationTool.ShowWindow(SW_SHOW);
+}
+
+
+void CForm::OnBnClickedButtonmyunittool()
+{
+	if (nullptr == m_tMyUnitTool.GetSafeHwnd())
+		m_tMyUnitTool.Create(IDD_MYUNITTOOL);
+	m_tMyUnitTool.ShowWindow(SW_SHOW);
 }

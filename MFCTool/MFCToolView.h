@@ -43,6 +43,22 @@ protected:
 public:
 	virtual void OnInitialUpdate();
 	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+
+	///////////////////신정호
+public:
+	void Load_Resource_GameObject();
+
+public:
+	OBJID::ID m_ePickingObject;
+
+public:
+	void Picking_Check(D3DXVECTOR3 _vMouse, D3DXVECTOR3 _vSize);
+	void Picking_Tile(D3DXVECTOR3 _vMouse);
+	void Picking_Pinky(D3DXVECTOR3 _vMouse, D3DXVECTOR3 _vSize);
+	void Picking_Raff(D3DXVECTOR3 _vMouse, D3DXVECTOR3 _vSize);
+	void Picking_Biu(D3DXVECTOR3 _vMouse, D3DXVECTOR3 _vSize);
+	afx_msg void OnRButtonDown(UINT nFlags, CPoint point);
+	///////////////////// 신정호
 };
 
 #ifndef _DEBUG  // MFCToolView.cpp의 디버그 버전

@@ -46,8 +46,23 @@
     <Filter Include="01,View\Animation\00. Load">
       <UniqueIdentifier>{16178309-cc9e-4d25-be75-7a5d5a4f3480}</UniqueIdentifier>
     </Filter>
-    <Filter Include="01,View\GameObject">
-      <UniqueIdentifier>{9a86e2fa-900c-434a-bd87-d14c791910cd}</UniqueIdentifier>
+    <Filter Include="07.GameObject">
+      <UniqueIdentifier>{df3e3cc3-9fc5-4861-8659-93cc92e656a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject\00.Pinky">
+      <UniqueIdentifier>{844a6cb7-77d4-498d-98ef-16abde806aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject\01.Raff">
+      <UniqueIdentifier>{789a4519-b351-4de3-accf-19d3d938f44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject\02.Biu">
+      <UniqueIdentifier>{25f134a3-8735-4ddc-bd80-be33c85dfdda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.GameObject\99.Manager">
+      <UniqueIdentifier>{9d02c324-ca1b-493f-8d4c-cc913fe109a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01,View\MyUnitTool">
+      <UniqueIdentifier>{67888aa6-625c-4432-b412-b68e71cda744}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +135,27 @@
     <ClInclude Include="AbstractFactory.h">
       <Filter>98.Headers</Filter>
     </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>07.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Pinky.h">
+      <Filter>07.GameObject\00.Pinky</Filter>
+    </ClInclude>
+    <ClInclude Include="Raff.h">
+      <Filter>07.GameObject\01.Raff</Filter>
+    </ClInclude>
+    <ClInclude Include="Biu.h">
+      <Filter>07.GameObject\02.Biu</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>07.GameObject\99.Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUnitTool.h">
+      <Filter>01,View\MyUnitTool</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainFrm.cpp">
@@ -169,6 +205,24 @@
     </ClCompile>
     <ClCompile Include="ImageLoad.cpp">
       <Filter>01,View\Animation\00. Load</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>07.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Pinky.cpp">
+      <Filter>07.GameObject\00.Pinky</Filter>
+    </ClCompile>
+    <ClCompile Include="Raff.cpp">
+      <Filter>07.GameObject\01.Raff</Filter>
+    </ClCompile>
+    <ClCompile Include="Biu.cpp">
+      <Filter>07.GameObject\02.Biu</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>07.GameObject\99.Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUnitTool.cpp">
+      <Filter>01,View\MyUnitTool</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

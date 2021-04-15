@@ -205,9 +205,12 @@
   <ItemGroup>
     <ClInclude Include="AbstractFactory.h" />
     <ClInclude Include="AnimationTool.h" />
+    <ClInclude Include="Biu.h" />
     <ClInclude Include="Define.h" />
+    <ClInclude Include="Enum.h" />
     <ClInclude Include="Form.h" />
     <ClInclude Include="Function.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="Graphic_Device.h" />
     <ClInclude Include="ImageLoad.h" />
@@ -217,6 +220,10 @@
     <ClInclude Include="MFCToolView.h" />
     <ClInclude Include="MiniView.h" />
     <ClInclude Include="MultiTexture.h" />
+    <ClInclude Include="MyUnitTool.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="Pinky.h" />
+    <ClInclude Include="Raff.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SingleTexture.h" />
     <ClInclude Include="stdafx.h" />
@@ -229,7 +236,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AnimationTool.cpp" />
+    <ClCompile Include="Biu.cpp" />
     <ClCompile Include="Form.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="Graphic_Device.cpp" />
     <ClCompile Include="ImageLoad.cpp" />
     <ClCompile Include="MainFrm.cpp" />
@@ -238,6 +247,10 @@
     <ClCompile Include="MFCToolView.cpp" />
     <ClCompile Include="MiniView.cpp" />
     <ClCompile Include="MultiTexture.cpp" />
+    <ClCompile Include="MyUnitTool.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Pinky.cpp" />
+    <ClCompile Include="Raff.cpp" />
     <ClCompile Include="SingleTexture.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

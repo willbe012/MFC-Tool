@@ -17,13 +17,23 @@ typedef struct tagTile
 typedef struct tagUnitInfo
 {
 #ifdef _AFX
-	CString wstrName; 
+	//CString wstrName; 
 #else 
-	wstring wstrName; 
+	//wstring wstrName; 
 #endif // _AFX
+	D3DXVECTOR3 vPos;
+	D3DXVECTOR3 vSize;
+	D3DXVECTOR3 vScale;
+	D3DXVECTOR3 vRotateAngle;
 
-	int iAtt; 
-	int iDef; 
-	BYTE byJop; 
-	BYTE byItem; 
+	D3DXMATRIX matWorld;
+
+	int iAtt;
+	int iHp;
+	BYTE byJop;
+	BYTE byItem;
+
+	BYTE byMonsterIdx;
+	//CString wstrName;
+	int	iDef;
 }UNITINFO;

@@ -47,6 +47,8 @@ using namespace std;
 #include "Global.h"
 #include "Struct.h"
 #include "Function.h"
+#include "Enum.h"
+#include "AbstractFactory.h"
 
 #include "Graphic_Device.h"
 

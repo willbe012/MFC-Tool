@@ -88,7 +88,7 @@ void CUnitTool::OnBnClickedAdd()
 	pUnitInfo->byJop = 0; 
 	pUnitInfo->byItem = 0; 
 
-	pUnitInfo->wstrName = m_strName; 
+//	pUnitInfo->wstrName = m_strName; 
 	pUnitInfo->iAtt = m_iAtt; 
 	pUnitInfo->iDef = m_iDef; 
 	int i = 0; 
@@ -132,7 +132,7 @@ void CUnitTool::OnLbnSelchangeFindName()
 	map<CString, UNITINFO*>::iterator& iter_Find = m_mapUnitInfo.find(strFindName); 
 	if (m_mapUnitInfo.end() == iter_Find)
 		return; 
-	m_strName = iter_Find->second->wstrName;
+//	m_strName = iter_Find->second->wstrName;
 	m_iAtt = iter_Find->second->iAtt; 
 	m_iDef = iter_Find->second->iDef; 
 	// 예외처리 하삼. 
